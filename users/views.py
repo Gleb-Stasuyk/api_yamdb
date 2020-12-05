@@ -6,7 +6,7 @@ from django.shortcuts import get_object_or_404
 from django.core.mail import send_mail
 from dotenv import load_dotenv
 from rest_framework import permissions, status, viewsets, mixins
-from rest_framework.decorators import action, permission_classes
+from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
 
